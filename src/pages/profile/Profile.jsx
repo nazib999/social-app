@@ -3,6 +3,8 @@ import "./profile.css";
 import Topbar from "../../components/topbar/Topbar";
 import Leftbar from "../../components/leftbar/Leftbar";
 import Feed from "../../components/feed/Feed";
+import cover from '/assets/post/3.jpeg'
+import user from '/assets/person/7.jpeg'
 
 const Profile = () => {
   return (
@@ -17,12 +19,12 @@ const Profile = () => {
           <div className="profileTop">
             <div className="profileCover">
               <img
-                src="/assets/post/3.jpeg"
+                src={cover}
                 alt=""
                 className="profileCoverImg"
               />
               <img
-                src="/assets/person/7.jpeg"
+                src={user}
                 alt=""
                 className="profileUserImg"
               />

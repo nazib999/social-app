@@ -2,6 +2,7 @@ import { Chat, Notifications, Person, Search } from "@mui/icons-material";
 import React from "react";
 import "./topbar.css";
 import { Link } from "react-router-dom";
+import img from '/assets/person/1.jpeg'
 
 const Topbar = () => {
   return (
@@ -42,7 +43,7 @@ const Topbar = () => {
         </div>
         <Link to={"/profile"}>
           {" "}
-          <img src="/assets/person/1.jpeg" alt="" className="topbarImg" />
+          <img src={img} alt="" className="topbarImg" />
         </Link>
       </div>
     </div>

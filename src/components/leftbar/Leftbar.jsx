@@ -1,7 +1,7 @@
 import React from "react";
 import "./leftbar.css";
 import { Bookmark, Chat, Group, JoinInner, RssFeed, VideoCall } from "@mui/icons-material";
-
+import img from '/assets/person/2.jpeg'
 const Leftbar = () => {
   return (
     <div className="leftBar">
@@ -42,26 +42,26 @@ const Leftbar = () => {
         <hr className="leftHr"/>
         <ul className="leftFriend">
           <li className="leftFriendItem">
-            <img src="/assets/person/2.jpeg" alt="" className="friendImg"/>
+            <img src={img} alt="" className="friendImg"/>
             <span className="leftName">Jhon doe</span>
           </li>
           <li className="leftFriendItem">
-            <img src="/assets/person/2.jpeg" alt="" className="friendImg"/>
+            <img src={img} alt="" className="friendImg"/>
             <span className="leftName">Jhon doe</span>
           </li><li className="leftFriendItem">
-            <img src="/assets/person/2.jpeg" alt="" className="friendImg"/>
+            <img src={img} alt="" className="friendImg"/>
             <span className="leftName">Jhon doe</span>
           </li><li className="leftFriendItem">
-            <img src="/assets/person/2.jpeg" alt="" className="friendImg"/>
+            <img src={img} alt="" className="friendImg"/>
             <span className="leftName">Jhon doe</span>
           </li><li className="leftFriendItem">
-            <img src="/assets/person/2.jpeg" alt="" className="friendImg"/>
+            <img src={img} alt="" className="friendImg"/>
             <span className="leftName">Jhon doe</span>
           </li><li className="leftFriendItem">
-            <img src="/assets/person/2.jpeg" alt="" className="friendImg"/>
+            <img src={img} alt="" className="friendImg"/>
             <span className="leftName">Jhon doe</span>
           </li><li className="leftFriendItem">
-            <img src="/assets/person/2.jpeg" alt="" className="friendImg"/>
+            <img src={img} alt="" className="friendImg"/>
             <span className="leftName">Jhon doe</span>
           </li>
         </ul>
