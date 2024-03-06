@@ -1,0 +1,56 @@
+.profileContainer {
+  width: 100%;
+  display: flex;
+  height: calc(100vh - 50px);
+  overflow: auto;
+  padding: 0 50px;
+}
+.leftProfile {
+  flex: 3;
+  position: sticky;
+  top: 0;
+  overflow-y: scroll;
+}
+.profileFeed {
+  flex: 6;
+}
+.profileFeed .postImg {
+  object-fit: cover;
+  border-radius: 10px;
+}
+.profileTop {
+  margin: 0 20px;
+}
+.profileCover {
+  height: 320px;
+  position: relative;
+}
+.profileCoverImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.profileUserImg {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150px;
+  border: 3px solid white;
+  object-fit: cover;
+}
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .profileContainer {
+    justify-content: center;
+  }
+}
