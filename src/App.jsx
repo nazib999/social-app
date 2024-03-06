@@ -6,7 +6,7 @@ import { BrowserRouter,Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/social-app/">
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/profile" element={<Profile/>}></Route>
