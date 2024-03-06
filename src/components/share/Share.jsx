@@ -1,13 +1,14 @@
 import { EmojiEmotions, Label, PermMedia, Room } from "@mui/icons-material";
 import React from "react";
 import "./share.css";
+import share from '/assets/person/1.jpeg'
 
 const Share = () => {
   return (
     <div className="share">
       <div className="shareWrapper">
         <div className="shareTop">
-          <img src="/assets/person/1.jpeg" alt="" className="shareImg" />
+          <img src={share} alt="" className="shareImg" />
           <input
             type="text"
             placeholder="What's in your mind?"

@@ -1,6 +1,7 @@
 import { MoreVert } from "@mui/icons-material";
 import React, { useState } from "react";
 import "./post.css";
+import profile from '/assets/person/1.jpeg'
 
 const Post = () => {
   const [like, setLike] = useState(30);
@@ -15,7 +16,7 @@ const Post = () => {
         <div className="postTop">
           <div className="postTopLeft">
             <img
-              src="/assets/person/1.jpeg"
+              src={profile}
               alt=""
               className="postProfileImg"
             />
